@@ -69,9 +69,9 @@ const About = () => {
                     <div className="col-lg-4">
                         <div className='section-title text-center'>
                             <h2 className='text-uppercase'>Our Doctors Acheivement</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet.</p>
+                            <p className='form-text m-0'>Medical pioneers achieving unprecedented breakthroughs.</p>
                         </div>
-                        <p className='mt-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quod laborum alias. Vitae dolorum, officia sit! Saepe ullam facere at, consequatur incidunt, quae esse, quis ut reprehenderit dignissimos, libero delectus.</p>
+                        <p className='mt-3'>Our doctors have achieved remarkable success through their unwavering dedication and commitment to providing exceptional care. Their tireless efforts have led to groundbreaking advancements in medical research, innovative treatment methods, and extraordinary patient outcomes. With a passion for excellence and a deep understanding of their field, our doctors continue to inspire confidence and trust among patients and colleagues alike. Their contributions to healthcare have not only transformed lives but also set new standards of excellence in the medical profession.</p>
                     </div>
 
                     <div className="col-lg-8">
