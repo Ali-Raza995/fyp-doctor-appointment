@@ -58,7 +58,8 @@ const DoctorProfileSetting = () => {
             const newDate = moment(value).format()
             newObj['dateOfBirth'] = newDate;
         }
-        newObj["services"] = selectedItems.join(',');
+        console.log('selectedItems', selectedItems)
+        newObj["services"] = selectedItems?.join(',');
         const changedValue = Object.fromEntries(Object.entries(newObj).filter(([key, value]) => value !== ''));
         
         const formData = new FormData();

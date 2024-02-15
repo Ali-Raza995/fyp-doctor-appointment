@@ -18,7 +18,7 @@ const Footer = () => {
 									</Link>
 								</div>
 								<div className="footer-about-content">
-									<p className='form-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+									<p className='form-text'>Discover our team of dedicated specialists ready to provide expert care tailored to your needs. </p>
 								</div>
 							</div>
 						</div>

@@ -18,6 +18,33 @@ const Service = () => {
     marginTop: 200,
     marginBottom: 100
   }
+
+  const data = [
+    {
+      type: "Child care",
+      description: "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+    },
+    {
+      type: "General Medicine",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, asperiores."
+    },
+    {
+      type: "Dermatology",
+      description: "Voluptatibus tempora maiores maxime dolore veniam minus nesciunt."
+    },
+    {
+      type: "Orthopedics",
+      description: "Quisquam est officiis expedita quas ipsum culpa consequatur."
+    },
+    {
+      type: "Cardiology",
+      description: "Natus repellendus voluptatibus dolorum officiis non illum quae voluptatem."
+    },
+    {
+      type: "Neurology",
+      description: "Ducimus velit sed excepturi accusantium iste rerum odit."
+    }
+  ];
   return (
     <>
       <Header />
@@ -26,13 +53,13 @@ const Service = () => {
       <div class="container" style={{ marginTop: 200, marginBottom: 100 }}>
         <div class="row">
           {
-            Array(6).fill(null).map((_item, id) => (
+            data?.map((_item, id) => (
               <div class="col-lg-4 col-md-6 col-sm-6" key={id + 6}>
                 <div class="card shadow border-0 mb-5">
                   <img src={img} alt="" class="img-fluid" style={{ maxHeight: '17rem', objectFit: 'cover' }} />
                   <div class="p-2">
-                    <h4 class="mt-4 mb-2">Child care</h4>
-                    <p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                    <h4 class="mt-4 mb-2">{_item?.type}</h4>
+                    <p class="mb-4">{_item?.description}</p>
                   </div>
                 </div>
               </div>

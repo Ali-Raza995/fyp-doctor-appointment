@@ -116,8 +116,7 @@ const About = () => {
                     <div className="col-lg-6">
                         <div className='mb-4 section-title text-center'>
                             <h2 className='text-uppercase'>Meet Our Specialist</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsum!</p>
-                        </div>
+                            <p class='form-text m-0'>Discover our team of dedicated specialists ready to provide expert care tailored to your needs.</p>                        </div>
                     </div>
                 </div>
 
